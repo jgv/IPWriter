@@ -1,3 +1,19 @@
 h1. ip-writer-rails
 
-p. A fork of Kim Asendorf's IP Writer for Rails 3 applcations.
+p. "Kim Asendorf's":http://kimasendorf.com/ "IP Writer":http://kimasendorf.com/ipwriter ported to Ruby for use in for Rails applcations. IP Writer reads the IP address of a visitor to a website and tweets it. By default it will tweet to the IP Writer twitter account, although you may configure it to tweet from any account you have access to.
+
+h2. Installation
+
+p. Include IPWriter in your Gemfile: @gem 'ip-writer-rails'@.
+
+h2. Usage
+
+p. Using IPWriter is simple. Just include the @ip_writer@ method anywhere in a controller.
+
+pre.
+class HomeController < ApplicationController
+  def index
+    ip_writer
+    ......
+  end
+end
