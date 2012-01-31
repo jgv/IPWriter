@@ -1,0 +1,3 @@
+h1. ip-writer-rails
+
+p. A fork of Kim Asendorf's IP Writer for Rails 3 applcations.
