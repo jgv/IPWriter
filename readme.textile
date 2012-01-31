@@ -10,10 +10,11 @@ h2. Usage
 
 p. Using IPWriter is simple. Just include the @ip_writer@ method anywhere in a controller.
 
-pre.
+<pre>
 class HomeController < ApplicationController
   def index
     ip_writer
     ......
   end
 end
+</pre>
