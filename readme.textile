@@ -18,3 +18,16 @@ class HomeController < ApplicationController
   end
 end
 </pre>
+
+h3. Tweet from any account
+
+p. You can tweet from any account by passing your Twitter consumer and OAuth keys to IPWriter.
+
+<pre>
+class HomeController < ApplicationController
+  def index
+    ip_writer(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
+    ......
+  end
+end
+</pre>
