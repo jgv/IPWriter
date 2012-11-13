@@ -1,6 +1,6 @@
 h1. ip-writer-rails
 
-p. This is "Kim Asendorf's":http://kimasendorf.com/ "IP Writer":http://kimasendorf.com/ipwriter ported to Ruby for use in for Rails applcations. IP Writer reads the IP address of a visitor to a website and tweets it. By default it will tweet to the IP Writer twitter account, although you may configure it to tweet from any account you have access to.
+p. This is "Kim Asendorf's":http://kimasendorf.com/ "IP Writer":http://kimasendorf.com/ipwriter ported to Ruby for use in for Rails applications. IP Writer reads the IP address of a visitor to a website and tweets it. By default it will tweet to the IP Writer twitter account, although you may configure it to tweet from any account you have access to.
 
 h2. Installation
 
